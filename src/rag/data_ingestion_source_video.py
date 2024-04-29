@@ -123,12 +123,12 @@ def convert_audio_to_text(audio_path):
     return audio_text
 
 
-def extract_audio_and_text_from_video():
-    download_video(VIDEO_URL, VIDEO_OUTPUT_PATH)
+def extract_audio_and_text_from_video(video_url = VIDEO_URL):
+    download_video(video_url, VIDEO_OUTPUT_PATH)
     convert_video_to_images(VIDEO_FILE, OUTPUT_FOLDER)
     convert_video_to_audio(VIDEO_FILE, AUDIO_FILE)
     convert_audio_to_text(AUDIO_FILE)
 
 
 if __name__ == '__main__':
-    extract_audio_and_text_from_video()
+    extract_audio_and_text_from_video(VIDEO_URL)
