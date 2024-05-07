@@ -18,3 +18,4 @@ SpeechRecognition
 ffmpeg-python
 soundfile
 opencv-python
+pdf2image

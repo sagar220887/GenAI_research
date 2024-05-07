@@ -163,3 +163,7 @@ cython_debug/
 /data
 /src/cache
 /src/exports
+/src/data
+/src/faiss_index/
+src/vectordb/
+/research/
