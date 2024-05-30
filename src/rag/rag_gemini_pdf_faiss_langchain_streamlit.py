@@ -90,8 +90,8 @@ def user_input(user_question):
 
     # Perform similarity search in the vector database based on the user question
     similar_docs = new_db.similarity_search(user_question)
-    # for doc in similar_docs:
-    #     print(doc)
+    for doc in similar_docs:
+        print(doc)
 
     # Obtain a conversational question-answering chain
     chain = get_conversational_chain()
