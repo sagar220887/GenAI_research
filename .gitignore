@@ -167,3 +167,6 @@ cython_debug/
 /src/faiss_index/
 src/vectordb/
 /research/
+**/cache
+**/models
+/model
