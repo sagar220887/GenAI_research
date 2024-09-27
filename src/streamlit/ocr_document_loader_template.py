@@ -132,7 +132,7 @@ def write_to_file(file_name_path, text_content):
     f.close()
     # st.write(f'## File data saved in - ', file_name_path)
     
-
+## TODO: write ur own custom method
 def extract_text_from_image(image_path):
     # Open the image file
     try:
